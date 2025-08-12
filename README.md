@@ -31,12 +31,12 @@ Robustness through Augmentation: Uses data augmentation (random flips, rotations
 The key to achieving high accuracy was not just the model architecture, but the methodology used to train it.
 
 Base Architecture: MobileNetV2
-We chose MobileNetV2 as our base model. It is a state-of-the-art, lightweight, and highly efficient computer vision model. Its pre-training on the ImageNet dataset means it already has a powerful, built-in understanding of general visual features like edges, textures, and shapes.
+I chose MobileNetV2 as our base model. It is a state-of-the-art, lightweight, and highly efficient computer vision model. Its pre-training on the ImageNet dataset means it already has a powerful, built-in understanding of general visual features like edges, textures, and shapes.
 
 
 *The Power of Transfer Learning*
 
-Instead of training a neural network from scratch, which would require an enormous amount of data and time, we used transfer learning. This technique involves taking a powerful pre-trained model (like MobileNetV2) and adapting it to a new, specific task. In essence, we took a model that was already an expert in "seeing" and taught it the specialized skill of identifying malaria parasites in blood cells.
+Instead of training a neural network from scratch, which would require an enormous amount of data and time, I used transfer learning. This technique involves taking a powerful pre-trained model (like MobileNetV2) and adapting it to a new, specific task. In essence, I took a model that was already an expert in "seeing" and taught it the specialized skill of identifying malaria parasites in blood cells.
 
 
 Two-Phase Training Process
