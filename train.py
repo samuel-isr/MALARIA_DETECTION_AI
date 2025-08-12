@@ -2,7 +2,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import os
 
-DATA_DIR = 'C:\\Users\\Samuel I\\Downloads\\malaria\\cell_images\\cell_images'
+DATA_DIR = '' #file directory
 IMG_SIZE = (128, 128)
 BATCH_SIZE = 32
 INITIAL_EPOCHS = 15
