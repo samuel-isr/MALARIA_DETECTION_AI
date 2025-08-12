@@ -1,0 +1,12 @@
+# Python virtual environment
+venv/
+
+# Large Keras model file
+*.h5
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+desktop.ini

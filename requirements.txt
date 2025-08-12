@@ -1,0 +1,7 @@
+tensorflow
+matplotlib
+Flask
+Flask-Cors
+Pillow
+numpy
+tf-keras-vis
