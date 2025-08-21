@@ -11,9 +11,9 @@ CORS(app)
 
 try:
     model = tf.keras.models.load_model('malaria_model.h5')
-    print("--- Model loaded successfully! ---")
+    print("Model loaded")
 except Exception as e:
-    print(f"--- FATAL: Error loading model: {e} ---")
+    print(f" Error loading model {e}")
     traceback.print_exc()
     model = None
 IMG_SIZE = (128, 128)
@@ -55,7 +55,7 @@ def predict():
             'confidence': float(confidence_percent) 
         })
     except Exception as e:
-        print("\n--- AN ERROR OCCURRED DURING PREDICTION ---")
+        print("\n Error during prediction")
         traceback.print_exc()
         return jsonify({'error': f'An error occurred on the server: {str(e)}'}), 500
 if __name__ == '__main__':
