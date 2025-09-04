@@ -1,4 +1,4 @@
-*Malaria Detection AI Model*
+# *Malaria Detection AI Model*
 
 A fine-tuned deep learning model that detects malaria in microscopic blood smear images with 95.81% accuracy.
 
